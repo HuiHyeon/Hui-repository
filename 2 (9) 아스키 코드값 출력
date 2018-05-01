@@ -1,0 +1,26 @@
+//Soultion1
+#include "stdafx.h"
+
+int main(void)
+{
+   char a = 'A';
+   char b = 'B';
+   
+   printf("%c의 아스키 코드= %d\n", a, a);
+   printf("%c의 아스키 코드= %d\n", b, b);
+   
+   return 0;
+}
+
+//Soultion2
+#include "stdafx.h"
+
+int main(void)
+{
+   char ch = 'A';
+   printf("%c의 아스키 코드= %d\n", ch, ch);
+   
+   ch = 'B';
+   printf("%c의 아스키 코드= %d\n", ch, ch);
+   return 0;
+}
