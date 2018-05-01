@@ -1,0 +1,34 @@
+//저축액이 500만원일 경우
+#include "stdafx.h"
+
+int main(void)
+{
+   int saving, property;
+   
+   printf("매달 저축 금액을 입력하시오: ");
+   scanf_s("%d", &saving);
+   
+   property = saving * 30 * 12;
+   
+   printf("30년 후의 재산 = %d원\n", property);
+   
+   return 0;
+}
+
+//저축액이 1,000만원일 경우
+#include "stdafx.h"
+
+int main(void)
+{
+   int saving;
+   long long property;
+   
+   printf("매달 저축 금액을 입력하시오: "); 
+   scanf_s("%d", &saving);
+ 
+   property = saving * 30 * 12;
+   
+   printf("30년 후의 재산 = %lld원\n", property);
+   
+   return 0;
+}
