@@ -1,0 +1,8 @@
+#include "stdafx.h"
+
+int main(void)
+{
+   printf("제품의 가격은 22000원입니다.\n");
+   
+   return 0;
+}
