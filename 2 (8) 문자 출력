@@ -1,0 +1,13 @@
+#include "stdafx.h"
+
+int main(void)
+{
+   char x;
+   
+   printf("문자를 입력하시오: ");
+   scanf_s("%c", &x);
+   
+   printf("입력된 문자는 %c입니다\n", x);
+   
+   return 0;
+}
