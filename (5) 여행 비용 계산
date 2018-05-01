@@ -1,3 +1,4 @@
+//Soultion1
 #include "stdafx.h"
 
 int main(void)
@@ -22,5 +23,35 @@ int main(void)
    printf("총 여행 비용: %d\n", sum);
    printf("========================\n");
    
+   return 0;
+}
+
+//Soultion2
+#include "stdafx.h"
+
+int main(void)
+{ 
+   int days, price, sum;
+   sum = 0;
+ 
+   printf("여행은 몇박인가요?: "); 
+   scanf_s("%d", &days);
+ 
+   printf("항공권 가격: "); 
+   scanf_s("%d", &price); 
+   sum = sum + price;
+   
+   printf("하루 1박 가격: "); 
+   scanf_s("%d", &price); 
+   sum = sum + price * days;
+ 
+   printf("하루에 필요한 용돈: "); 
+   scanf_s("%d", &price); 
+   sum = sum + price * days;
+ 
+   printf("===========================\n"); 
+   printf("총 여행 비용: %d\n", sum); 
+   printf("===========================\n");
+   
    return 0;
 }
