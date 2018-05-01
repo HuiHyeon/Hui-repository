@@ -1,0 +1,10 @@
+#include "stdafx.h"
+
+int main(void)
+{
+   printf("이름: 조희현\n");
+   printf("주소: 경기도 고양시\n");
+   printf("전화번호: 123-4567\n");
+   
+   return 0;
+}
