@@ -1,0 +1,16 @@
+#include "stdafx.h"
+#define EXCHANGE 3.3058
+int main(void)
+{
+   double meter;
+   double space;
+   
+   printf("면적을 제곱미터 단위로 입력하시오: ");
+   scanf_s("%lf", &meter);
+   
+   space = meter / EXCHANGE;
+   
+   printf("%.2f제곱미터는 %.2f평입니다.\n", meter, space);
+   
+   return 0;
+}
